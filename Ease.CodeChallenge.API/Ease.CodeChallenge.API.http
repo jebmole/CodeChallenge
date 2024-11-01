@@ -1,0 +1,6 @@
+@Ease.CodeChallenge.API_HostAddress = http://localhost:5239
+
+GET {{Ease.CodeChallenge.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
