@@ -9,15 +9,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{00A2D257-3788-4803-BB56-C9EEBC6C3213}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ease.CodeChallenge.Domain", "Ease.CodeChallenge.Domain\Ease.CodeChallenge.Domain.csproj", "{D2771B91-CE05-4517-940B-03B8096556A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ease.CodeChallenge.Domain", "Ease.CodeChallenge.Domain\Ease.CodeChallenge.Domain.csproj", "{D2771B91-CE05-4517-940B-03B8096556A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ease.CodeChallenge.Application", "Ease.CodeChallenge.Application\Ease.CodeChallenge.Application.csproj", "{C6EAA8E2-DF2B-48BB-91D4-7102A270258D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ease.CodeChallenge.Application", "Ease.CodeChallenge.Application\Ease.CodeChallenge.Application.csproj", "{C6EAA8E2-DF2B-48BB-91D4-7102A270258D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ease.CodeChallenge.Infrastructure", "Ease.CodeChallenge.Infrastructure\Ease.CodeChallenge.Infrastructure.csproj", "{5FD9AD8C-9AF2-4F75-8D65-E3F3D6A2FCCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ease.CodeChallenge.Infrastructure", "Ease.CodeChallenge.Infrastructure\Ease.CodeChallenge.Infrastructure.csproj", "{5FD9AD8C-9AF2-4F75-8D65-E3F3D6A2FCCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ease.CodeChallenge.API", "Ease.CodeChallenge.API\Ease.CodeChallenge.API.csproj", "{4E76FFDD-0FB3-4AF8-8EA2-0DFF3A4FD477}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ease.CodeChallenge.API", "Ease.CodeChallenge.API\Ease.CodeChallenge.API.csproj", "{4E76FFDD-0FB3-4AF8-8EA2-0DFF3A4FD477}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ease.CodeChallenge.Client", "Ease.CodeChallenge.Client\Ease.CodeChallenge.Client.csproj", "{1BF69EBA-D3CF-4EBE-9CF3-4C0E3C9EB10F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ease.CodeChallenge.Client", "Ease.CodeChallenge.Client\Ease.CodeChallenge.Client.csproj", "{1BF69EBA-D3CF-4EBE-9CF3-4C0E3C9EB10F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{AC4F2E96-8410-4BDD-B7CC-A585DD357B78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ease.CodeChallenge.Tests", "Ease.CodeChallenge.Tests\Ease.CodeChallenge.Tests.csproj", "{A01E788B-88B6-4A41-98E4-43BF3678CC0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,10 @@ Global
 		{1BF69EBA-D3CF-4EBE-9CF3-4C0E3C9EB10F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BF69EBA-D3CF-4EBE-9CF3-4C0E3C9EB10F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BF69EBA-D3CF-4EBE-9CF3-4C0E3C9EB10F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A01E788B-88B6-4A41-98E4-43BF3678CC0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A01E788B-88B6-4A41-98E4-43BF3678CC0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A01E788B-88B6-4A41-98E4-43BF3678CC0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A01E788B-88B6-4A41-98E4-43BF3678CC0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +63,7 @@ Global
 		{5FD9AD8C-9AF2-4F75-8D65-E3F3D6A2FCCD} = {8B47CE56-2BF6-4767-972D-61A27CDBED90}
 		{4E76FFDD-0FB3-4AF8-8EA2-0DFF3A4FD477} = {00A2D257-3788-4803-BB56-C9EEBC6C3213}
 		{1BF69EBA-D3CF-4EBE-9CF3-4C0E3C9EB10F} = {00A2D257-3788-4803-BB56-C9EEBC6C3213}
+		{A01E788B-88B6-4A41-98E4-43BF3678CC0F} = {AC4F2E96-8410-4BDD-B7CC-A585DD357B78}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FF1CFEE2-47C9-42C5-B703-3D2A79C6C507}
